@@ -1,0 +1,9 @@
+#don't run these codes in colab or web browser based terminator
+
+import webbrowser
+url = "http://google.com" #replace your wanted url here
+for e in range(100):#run 100 times, you can replace your wanted number
+	webbrowser.open(url)
+	e=e+1
+  
+  #tala!
